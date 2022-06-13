@@ -1,0 +1,36 @@
+{
+  "name": "tableau-markdown-it",
+  "version": "1.0.0",
+  "description": "Implementation of the tableau extended table syntax for markdown-it",
+  "keywords": [
+    "markdown-it",
+    "markdown-it-plugin",
+    "tableau-table",
+    "table"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build",
+    "doc": "typedoc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^17.0.40",
+    "jest": "^28.1.0",
+    "markdown-it": "^13.0.1",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typedoc": "^0.22.17",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "js-tableau-parser": "^1.0.1"
+  },
+  "files": [
+    "dist/"
+  ]
+}
